@@ -1,0 +1,67 @@
+/* Full screen background */
+.login-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: url("/public/bg.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* Login card */
+.login-card {
+  background: rgba(255, 255, 255, 0.95);
+  width: 360px;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
+}
+
+/* Title */
+.login-card h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.login-card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Buttons */
+.login-card button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 8px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* User login */
+.user-btn {
+  background: #1e73ff;
+  color: white;
+}
+
+/* Admin login */
+.admin-btn {
+  background: #333;
+  color: white;
+}
+
+/* Create account link */
+.create-link {
+  text-align: center;
+  margin-top: 15px;
+  cursor: pointer;
+  color: #1e73ff;
+  font-weight: bold;
+}

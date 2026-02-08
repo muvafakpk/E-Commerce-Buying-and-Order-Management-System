@@ -1,0 +1,65 @@
+/* Full background */
+.register-bg {
+  height: 100vh;
+  background: url("/public/bg.png") no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card */
+.register-card {
+  width: 360px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  text-align: center;
+}
+
+.register-card h2 {
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.register-card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* Buttons */
+.register-btn {
+  width: 100%;
+  padding: 10px;
+  background: #1e73e8;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.register-btn:hover {
+  background: #155ac4;
+}
+
+.back-btn {
+  margin-top: 15px;
+  background: none;
+  border: none;
+  color: #1e73e8;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Message */
+.msg {
+  margin-top: 10px;
+  color: green;
+  font-size: 14px;
+}

@@ -1,0 +1,63 @@
+/* ===== ORDER FORM PAGE ===== */
+.order-form {
+  max-width: 420px;
+  margin: 60px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+}
+
+.order-form h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.order-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.order-form input,
+.order-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+  outline: none;
+}
+
+.order-form input:focus,
+.order-form textarea:focus {
+  border-color: #1e73e8;
+}
+
+.order-form textarea {
+  resize: none;
+  height: 80px;
+}
+
+.order-form .buy-btn {
+  background: #1e73e8;
+  color: white;
+  border: none;
+  padding: 14px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.order-form .buy-btn:hover {
+  background: #155fc4;
+}
+
+.order-form .back-btn {
+  margin-top: 10px;
+  background: #111;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
